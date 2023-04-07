@@ -22,7 +22,7 @@
             border: 2px solid #04838f;
             border-radius: 0.5rem;
             margin: 0 2rem;
-            width: 12rem;
+            width: 14rem;
             font-size: 1.2rem;
             font-weight: 100;
             span {
@@ -34,12 +34,19 @@
     .chartDiv {
         display: block;
         min-width: 20rem;
-        max-width: 40rem;
+        max-width: 50rem;
         width: 100%;
         min-height: 20rem;
         max-height: 40rem;
         height: 100%;
         margin-top: 3rem;
+    }
+    button {
+        padding: 1rem 3rem;
+        background-color: #431d4b;
+        color: #fff;
+        border-radius: 0.5rem;
+        margin-top: 2rem;
     }
 }
 @media (max-width: 600px) {

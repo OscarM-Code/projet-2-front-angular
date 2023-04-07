@@ -1,3 +1,18 @@
-<canvas baseChart class="chart" [data]="pieChartData" [type]="pieChartType" [options]="pieChartOptions"
-    [plugins]="pieChartPlugins">
-</canvas>
+<div class="container">
+    <h1>Medals per Country</h1>
+    <div class="pDiv">
+        <p>
+            Number of JOs
+            <span>{{ olympicsLength }}</span>
+        </p>
+        <p>
+            Number of Countries
+            <span>{{ olympicsLength }}</span>
+        </p>
+    </div>
+    <div class="chartDiv">
+        <canvas baseChart class="chart" [data]="pieChartData" [type]="pieChartType" [options]="pieChartOptions"
+            [plugins]="pieChartPlugins" (chartClick)="chartClicked($event)">
+        </canvas>
+    </div>
+</div>
