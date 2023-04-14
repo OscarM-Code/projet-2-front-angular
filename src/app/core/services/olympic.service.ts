@@ -30,7 +30,7 @@ export class OlympicService {
     return this.olympics$.asObservable();
   }
 
-  getOlympicsByCountry(id: number): Observable<Olympic[]> {
+  getOlympicsById(id: number): Observable<Olympic[]> {
     return this.olympics$
       .asObservable()
       .pipe(
