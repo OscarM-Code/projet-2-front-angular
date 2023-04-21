@@ -4,7 +4,7 @@ Ce projet est un dashboard créé avec Angular pour présenter les données des 
 
 ## Installation
 
-1. Cloner le dépôt Git : `git clone hgit@github.com:OscarM-Code/projet-2-front-angular.git`
+1. Cloner le dépôt Git : `git clone git@github.com:OscarM-Code/projet-2-front-angular.git`
 2. Aller dans le dossier du projet : `cd projet-2-front-angular`
 3. Installer les dépendances : `npm install`
 
