@@ -1,27 +1,25 @@
-# Projet2FrontAngular
+# Jeux Olympiques Dashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+Ce projet est un dashboard créé avec Angular pour présenter les données des précédents Jeux Olympiques. Le dashboard affiche des statistiques sur les performances des pays aux Jeux Olympiques, ainsi que des informations sur les athlètes et les événements.
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Cloner le dépôt Git : `git clone hgit@github.com:OscarM-Code/projet-2-front-angular.git`
+2. Aller dans le dossier du projet : `cd projet-2-front-angular`
+3. Installer les dépendances : `npm install`
 
-## Code scaffolding
+## Utilisation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Lancer l'application : `ng serve` ou `npm run start`
+2. Ouvrir un navigateur et accéder à l'URL `http://localhost:4200/`
 
-## Build
+## Fonctionnalités
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Le dashboard présente les fonctionnalités suivantes :
 
-## Running unit tests
+- Affichage des médailles par pays
+- Affichage d'un pays spécifique pour afficher ses statistiques
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Licence
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Ce projet est un projet pour la formation `Développeur Full Stack Java et Angular` de OpenClassroom.
