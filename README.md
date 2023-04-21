@@ -1,6 +1,6 @@
 # Jeux Olympiques Dashboard
 
-Ce projet est un dashboard créé avec Angular pour présenter les données des précédents Jeux Olympiques. Le dashboard affiche des statistiques sur les performances des pays aux Jeux Olympiques, ainsi que des informations sur les athlètes et les événements.
+Ce projet est un dashboard créé avec Angular pour présenter les données des précédents Jeux Olympiques. Le dashboard affiche des statistiques sur les performances des pays aux Jeux Olympiques.
 
 ## Installation
 
